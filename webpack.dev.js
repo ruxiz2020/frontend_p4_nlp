@@ -38,6 +38,6 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({template: "./src/client/views/index.html", filename: "./index.html"}),
     new CleanWebpackPlugin({dry: true, verbose: true, cleanStaleWebpackAssets: true, protectWebpackAssets: false}),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
   ]
 };

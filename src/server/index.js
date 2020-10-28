@@ -11,10 +11,10 @@ const PORT = process.env.PORT || 8080;
 const isDevEnvironment = process.env.NODE_ENV == "development";
 
 const textapi = new AYLIENTextAPI({
-  //application_id: process.env.AYLIEN_APP_ID,
-  //application_key: process.env.AYLIEN_APP_KEY
-  application_id: '4308cf78',
-  application_key: '95bcd284608e0e1ab61f77b51b448b1b'
+  //application_id: process.env.APP_ID,
+  //application_key: process.env.APP_KEY
+  application_id: '1c2a5cee',
+  application_key: 'dbe0bc117efc0fb04a36f80f87e4a23e'
 });
 
 const app = express();
